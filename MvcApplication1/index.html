@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <h1>Zen Coding</h1>
+    <h2>Lorem Ipsum generator</h2>
+    <h3>p>lorem</h3>
+    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+
+    <h2>Lorem Pixel generator</h2>
+    <h3>pix</h3>
+    <img src="http://lorempixel.com/30/30/" alt="" />
+    <h3>pix-200x200</h3>
+    <img src="http://lorempixel.com/200/200/" alt="" />
+
+    <h3>pix-200x200-abstract</h3>
+    <img src="http://lorempixel.com/200/200/abstract/1/" alt="" />
+
+    <h3>pix-g-200x200-abstract</h3>
+    <img src="http://lorempixel.com/g/200/200/abstract/4/" alt="" />
+
+    <h3>pix-g-200x200-business-DemoTxte</h3>
+    <img src="http://lorempixel.com/g/200/200/business/4/DemoTxte/" alt="" />
+    <ul>
+        <li>abstract<br /><img src="http://lorempixel.com/200/200/abstract/1/" alt="" /></li>
+        <li>animails<br /><img src="http://lorempixel.com/200/200/animals/1/" alt="" /></li>
+        <li>business<br /><img src="http://lorempixel.com/200/200/business/1/" alt="" /></li>
+        <li>cats<br /><img src="http://lorempixel.com/200/200/cats/1/" alt="" /></li>
+        <li>city<br /><img src="http://lorempixel.com/200/200/city/1/" alt="" /></li>
+        <li>food<br /><img src="http://lorempixel.com/200/200/food/1/" alt="" /></li>
+        <li>nightlife<br /><img src="http://lorempixel.com/200/200/nightlife/1/" alt="" /></li>
+        <li>fashion<br /><img src="http://lorempixel.com/200/200/fashion/1/" alt="" /></li>
+        <li>people<br /><img src="http://lorempixel.com/200/200/people/1/" alt="" /></li>
+        <li>nature<br /><img src="http://lorempixel.com/200/200/nature/1/" alt="" /></li>
+        <li>sports<br /><img src="http://lorempixel.com/200/200/sports/1/" alt="" /></li>
+        <li>technics<br /><img src="http://lorempixel.com/200/200/technics/1/" alt="" /></li>
+        <li>transport<br /><img src="http://lorempixel.com/200/200/transport/1/" alt="" /></li>
+    </ul>
+
+    <h2>PlaceHold.it generator</h2>
+    <h3>place-50</h3>
+    <img src="http://placehold.it/50x50/" alt="" />
+
+    <h3>place-400x100</h3>
+    <img src="http://placehold.it/400x100/" alt="" />
+
+    <h3>place-150x240-eeeddd</h3>
+    <img src="http://placehold.it/150x240/eeeddd/" alt="" />
+
+    <h3>place-150x240-EEE-t=This%20is%20some%20text</h3>
+    <img src="http://placehold.it/150x240/EEE&text=This%20is%20some%20text" alt="" />
+
+
+    <h2>ZenCoding syntax</h2>
+    <h3>rule</h3>
+    <ul>
+        <li># creates an id attribute</li>
+        <li>. creates a class attribute</li>
+        <li>[ ] creates a custom attribute</li>
+        <li>> creates a child element</li>
+        <li>+ creates a sibling element</li>
+        <li>^ climbs up</li>
+        <li>* is element multiplication. This creates the same thing n number of times</li>
+        <li>$ is replaced with an incremental number</li>
+        <li>$$ is used for numbers with padding</li>
+        <li>{ } creates text in an element</li>
+    </ul>
+
+    <h3>div#contentRegion.address</h3>
+    &lt;div id="contentRegion" class="address"&gt;&lt;/div&gt;
+
+    <h3>div[title]</h3>
+    <div title=""></div>
+
+    <h3>input[placeholder="Name" type="text"]</h3>
+    <input type="text" value="" placeholder="Name" />
+
+    <h3>div#menu>span.item[title]</h3>
+    <div id="menu">
+        <span class="item" title=""></span>
+    </div>
+
+    <h3>footer>div>a+input</h3>
+    <footer>
+        <div>
+            <a href=""></a>
+            <input type="" value="" />
+        </div>
+    </footer>
+
+    <h3>footer>div>a+input^^p</h3>
+    <footer>
+        <div>
+            <a href=""></a>
+            <input type="" value="" />
+        </div>
+    </footer>
+    <p></p>
+
+    <h3>footer>div>a+input^^p>lorem</h3>
+    <footer>
+        <div>
+            <a href=""></a>
+            <input type="" value="" />
+        </div>
+    </footer>
+    <p>Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.</p>
+
+    <h3>ul>li*4>span</h3>
+    <ul>
+        <li>
+            <span></span>
+        </li>
+        <li>
+            <span></span>
+        </li>
+        <li>
+            <span></span>
+        </li>
+        <li>
+            <span></span>
+        </li>
+    </ul>
+
+    <h3>section>article.item$$*4</h3>
+    <section>
+        <article class="item01"></article>
+        <article class="item02"></article>
+        <article class="item03"></article>
+        <article class="item04"></article>
+    </section>
+
+    <h3>ul>li*4>span{Caption $$}</h3>
+    <ul>
+        <li>
+            <span>Caption 01</span>
+        </li>
+        <li>
+            <span>Caption 02</span>
+        </li>
+        <li>
+            <span>Caption 03</span>
+        </li>
+        <li>
+            <span>Caption 04</span>
+        </li>
+    </ul>
+
+    <h3>ul>li*4>span{Caption $$}+a{click me}</h3>
+    <ul>
+        <li>
+            <span>Caption 01</span>
+            <a href="">click me</a>
+        </li>
+        <li>
+            <span>Caption 02</span>
+            <a href="">click me</a>
+        </li>
+        <li>
+            <span>Caption 03</span>
+            <a href="">click me</a>
+        </li>
+        <li>
+            <span>Caption 04</span>
+            <a href="">click me</a>
+        </li>
+    </ul>
+
+    <h3>section[data-bind="foreach:customers"]>div*4>input[type="text" data-bind="text:$$"]</h3>
+    <section data-bind="foreach:customers">
+        <div>
+            <input type="text" value="" data-bind="text:01" />
+        </div>
+        <div>
+            <input type="text" value="" data-bind="text:02" />
+        </div>
+        <div>
+            <input type="text" value="" data-bind="text:03" />
+        </div>
+        <div>
+            <input type="text" value="" data-bind="text:04" />
+        </div>
+    </section>
+
+    <h3>div>(header>div)+(section>ul>li*2>a)+(footer>div>span)</h3>
+    <div>
+        <header>
+            <div></div>
+        </header>
+        <section>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </section>
+        <footer>
+            <div>
+                <span></span>
+            </div>
+        </footer>
+    </div>
+
+    <h3>ul>li*5>lorem3</h3>
+    <ul>
+        <li>Sit amet, consectetur.</li>
+        <li>Adipiscing elit fusce.</li>
+        <li>Vel sapien elit.</li>
+        <li>In malesuada semper.</li>
+        <li>Mi, id sollicitudin.</li>
+    </ul>
+
+
+</body>
+</html>
