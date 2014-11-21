@@ -57,6 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\bullet.gif" />
+    <Content Include="images\logo-policetv.jpg" />
+    <Content Include="images\metro-link.png" />
+    <Content Include="images\under-unit.png" />
+    <Content Include="index.html" />
+    <Content Include="Style\metro4.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
